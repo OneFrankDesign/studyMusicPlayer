@@ -4,7 +4,7 @@ const artist = document.getElementById("artist");
 const body = document.querySelector("body");
 const colors = document.getElementById("colors");
 
-const numberOfBars = 50;
+const numberOfBars = 45;
 
 const music = document.querySelector("audio");
 
