@@ -16,7 +16,6 @@ body {
   font-family: "Monda", sans-serif;
   color: whitesmoke;
   font-size: 12px;
-  overflow: hidden;
 }
 
 audio {
@@ -329,44 +328,85 @@ h3 {
     filter: saturate(190%) brightness(105%) sepia(0.5) hue-rotate(180deg);
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.9);
   }
+}
 
-  @media screen and (max-width: 414px) {
-    .player-container {
-      width: 95vw;
-    }
+@media screen and (max-width: 414px) {
+  .player-container {
+    width: 95vw;
+  }
 
-    .img-container {
-      left: 45px;
-    }
+  .img-container {
+    left: 45px;
+  }
 
-    h2 {
-      font-size: 20px;
-    }
+  h2 {
+    font-size: 20px;
+  }
 
-    h3 {
-      font-size: 15px;
-    }
+  h3 {
+    font-size: 15px;
+  }
 
-    .player-controls {
-      top: -10px;
-      left: 120px;
-    }
+  .player-controls {
+    top: -10px;
+    left: 120px;
+  }
 
-    .visualizer-container {
-      position: absolute;
-      bottom: -16%;
-      left: 9%;
-      text-align: center;
-    }
-    .visualizer-bar {
-      display: inline-block;
-      background: rgb(255, 255, 255);
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-      margin: 0 1.5px;
-      width: 1%;
-      filter: saturate(190%) brightness(105%) sepia(0.5) hue-rotate(180deg);
-      box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.9);
-    }
+  .visualizer-container {
+    position: absolute;
+    bottom: -16%;
+    left: 9%;
+    text-align: center;
+  }
+  .visualizer-bar {
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0 1.5px;
+    width: 1%;
+    filter: saturate(190%) brightness(105%) sepia(0.5) hue-rotate(180deg);
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.9);
+  }
+}
+@media screen and (max-width: 360px) {
+  .player-container {
+    width: 95vw;
+    height: 38.5rem;
+  }
+
+  .img-container {
+    left: 22px;
+    top: 22px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .player-controls {
+    top: -10px;
+    left: 6.6rem;
+  }
+
+  .visualizer-container {
+    position: absolute;
+    bottom: -28%;
+    left: 6%;
+    text-align: center;
+  }
+  .visualizer-bar {
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0 1.5px;
+    width: 1%;
+    filter: saturate(190%) brightness(105%) sepia(0.5) hue-rotate(180deg);
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.9);
   }
 }
