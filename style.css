@@ -372,12 +372,13 @@ h3 {
 @media screen and (max-width: 360px) {
   .player-container {
     width: 95vw;
-    height: 38.5rem;
+    height: 36.5rem;
   }
 
   .img-container {
     left: 22px;
     top: 22px;
+    margin-bottom: 35px;
   }
 
   h2 {
@@ -390,12 +391,12 @@ h3 {
 
   .player-controls {
     top: -10px;
-    left: 6.6rem;
+    left: 6.25rem;
   }
 
   .visualizer-container {
     position: absolute;
-    bottom: -28%;
+    bottom: -26%;
     left: 6%;
     text-align: center;
   }
