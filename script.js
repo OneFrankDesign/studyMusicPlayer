@@ -92,8 +92,8 @@ function togglePause() {
 function loadSong(song) {
   title.textContent = song.displayName;
   artist.textContent = song.artist;
-  image.src = `img/${song.name}.jpg`;
-  music.src = `music/${song.name}.mp3`;
+  image.src = `./img/${song.name}.jpg`;
+  music.src = `./music/${song.name}.mp3`;
 }
 
 loadSong(songs[9]);
