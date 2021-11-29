@@ -6,6 +6,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
   min-height: 100vh;
   background: url("https://images.unsplash.com/photo-1509773896068-7fd415d91e2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
   height: 100vh;
@@ -19,11 +20,6 @@ body {
   font-family: "Monda", sans-serif;
   color: whitesmoke;
   font-size: 12px;
-}
-
-audio {
-  position: relative;
-  left: 50px;
 }
 
 #colors {
@@ -46,8 +42,6 @@ audio {
   background-position: center;
   opacity: 1;
   text-align: center;
-  overflow: hidden;
-  object-fit: cover;
   align-items: end;
   justify-content: center;
 }
